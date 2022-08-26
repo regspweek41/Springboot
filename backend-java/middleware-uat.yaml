@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: middleware
-        image: rvritacr.azurecr.io/aks/backend:#{buildNo}#
+        image: mainproject.azurecr.io/aks/backend:#{buildNo}#
         env:
         - name: api_env
           value: #{api_env}#
