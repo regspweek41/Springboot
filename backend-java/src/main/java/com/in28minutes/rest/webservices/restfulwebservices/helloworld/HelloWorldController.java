@@ -25,7 +25,7 @@ public class HelloWorldController {
 		return new HelloWorldBean(String.format("Hello World, %s", name));
 	}
 
-    @GetMapping(path = "/tracker")
+    @GetMapping(path = "//trackermiddleware")
 	public boolean helloWorld1() {
 		return true;
 	}
