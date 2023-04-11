@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: middleware
-        image: mainproject.azurecr.io/aks/backend:#{buildNo}#
+        image: acr100thbatchproject.azurecr.io/backend/java:#{buildNo}#
         env:
         - name: api_env
           value: #{api_env}#
