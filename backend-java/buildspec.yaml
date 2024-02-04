@@ -33,5 +33,4 @@ phases:
       - cat imagedefinitions.json
 artifacts:
   files:
-    - buildspec.yaml
-    - imagedefinitions.json
+    - 'imagedefinitions.json'
