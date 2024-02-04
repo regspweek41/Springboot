@@ -34,4 +34,4 @@ phases:
 artifacts:
   files:
     - imagedefinitions.json
-    - target/*.jar
+    - target/todo-rest-api-mysql-1.0.0.RELEASE.jar
